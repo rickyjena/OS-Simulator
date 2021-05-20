@@ -1,0 +1,598 @@
+
+==================================================
+Simulator Log File Header
+
+File Name                       : metadata4.mdf
+CPU Scheduling                  : FCFS-P
+Quantum Cycles                  : 45
+Memory Available (KB)           : 333
+Processor Cycle Rate (ms/cycle) : 9
+I/O Cycle Rate (ms/cycle)       : 22
+
+================
+Begin Simulation
+
+  0.000000, OS: System Start
+  0.000016, OS: Create Process Control Blocks
+  0.000047, OS: All processes initialized in New state
+  0.000070, OS: All processes now set in Ready state
+  0.000098, OS: Process 0 selected with 7209 ms remaining
+  0.000122, OS: Process 0 set in RUNNING state
+
+  0.000145, Process: 0, hard drive input start
+
+  0.000192, OS: Process 0 set in BLOCKED state
+  0.000234, OS: Process 1 selected with 8585 ms remaining
+  0.000257, OS: Process 1 set in RUNNING state
+
+  0.000280, Process: 1, run operation start
+  0.099673, Process: 1, run operation end
+
+  0.099687, OS: Process 1 set in READY state
+  0.099706, OS: Process 1 selected with 8486 ms remaining
+  0.099712, OS: Process 1 set in RUNNING state
+
+  0.099723, Process: 1, printer output start
+
+  0.099741, OS: Process 1 set in BLOCKED state
+  0.099758, OS: Process 2 selected with 9374 ms remaining
+  0.099767, OS: Process 2 set in RUNNING state
+
+  0.099775, Process: 2, run operation start
+  0.216817, Process: 2, run operation end
+
+  0.216837, OS: Process 2 set in READY state
+  0.216856, OS: Process 2 selected with 9257 ms remaining
+  0.216862, OS: Process 2 set in RUNNING state
+
+  0.216873, Process: 2, run operation start
+  0.270901, Process: 2, run operation end
+
+  0.270912, OS: Process 2 set in READY state
+  0.270931, OS: Process 2 selected with 9203 ms remaining
+  0.270939, OS: Process 2 set in RUNNING state
+
+  0.270947, Process: 2, keyboard input start
+
+  0.270964, OS: Process 2 set in BLOCKED state
+  0.270979, OS: Process 3 selected with 4670 ms remaining
+  0.270986, OS: Process 3 set in RUNNING state
+
+  0.270996, Process: 3, hard drive input start
+
+  0.271011, OS: Process 3 set in BLOCKED state
+  0.271028, OS: Process 4 selected with 3831 ms remaining
+  0.271036, OS: Process 4 set in RUNNING state
+
+  0.271046, Process: 4, run operation start
+  0.334078, Process: 4, run operation end
+
+  0.334089, OS: Process 4 set in READY state
+  0.334107, OS: Process 4 selected with 3768 ms remaining
+  0.334113, OS: Process 4 set in RUNNING state
+
+  0.334124, Process: 4, monitor output start
+
+  0.334142, OS: Process 4 set in BLOCKED state
+  0.334157, OS: System/CPU idle
+  0.462239, OS: Interrupt called by process 0
+
+  0.462254, Process: 0, hard drive input end
+
+  0.462269, OS: Process 0 set in READY state
+  0.462288, OS: Process 0 selected with 6747 ms remaining
+  0.462298, OS: Process 0 set in RUNNING state
+
+  0.462306, Process: 0, hard drive output start
+
+  0.462319, OS: Process 0 set in BLOCKED state
+  0.462334, OS: System/CPU idle
+  0.554395, OS: Interrupt called by process 4
+
+  0.554411, Process: 4, monitor output end
+
+  0.554425, OS: Process 4 set in READY state
+  0.554449, OS: Process 4 selected with 3548 ms remaining
+  0.554457, OS: Process 4 set in RUNNING state
+
+  0.554467, Process: 4, run operation start
+  0.644508, Process: 4, run operation end
+
+  0.644520, OS: Process 4 set in READY state
+  0.644538, OS: Process 4 selected with 3458 ms remaining
+  0.644545, OS: Process 4 set in RUNNING state
+
+  0.644556, Process: 4, run operation start
+  0.698584, Process: 4, run operation end
+
+  0.698594, OS: Process 4 set in READY state
+  0.698615, OS: Process 4 selected with 3404 ms remaining
+  0.698626, OS: Process 4 set in RUNNING state
+
+  0.698635, Process: 4, hard drive input start
+
+  0.698654, OS: Process 4 set in BLOCKED state
+  0.698670, OS: System/CPU idle
+  1.090912, OS: Interrupt called by process 1
+
+  1.090946, Process: 1, printer output end
+
+  1.090955, OS: Process 1 set in READY state
+  1.090972, OS: Process 1 selected with 7496 ms remaining
+  1.090983, OS: Process 1 set in RUNNING state
+
+  1.090993, Process: 1, run operation start
+
+  1.136022, OS: Process 1 interrupted by process 3
+  1.136038, OS: Process 1 set in READY state
+
+  1.136055, Process: 3, hard drive input end
+
+  1.136070, OS: Process 3 set in READY state
+  1.136089, OS: Process 1 selected with 7451 ms remaining
+  1.136097, OS: Process 1 set in RUNNING state
+
+  1.136108, Process: 1, run operation start
+  1.163127, Process: 1, run operation end
+
+  1.163140, OS: Process 1 set in READY state
+  1.163158, OS: Process 1 selected with 7424 ms remaining
+  1.163165, OS: Process 1 set in RUNNING state
+
+  1.163176, Process: 1, printer output start
+
+  1.163194, OS: Process 1 set in BLOCKED state
+  1.163209, OS: Process 3 selected with 3812 ms remaining
+  1.163220, OS: Process 3 set in RUNNING state
+
+  1.163230, Process: 3, run operation start
+  1.262279, Process: 3, run operation end
+
+  1.262291, OS: Process 3 set in READY state
+  1.262310, OS: Process 3 selected with 3713 ms remaining
+  1.262319, OS: Process 3 set in RUNNING state
+
+  1.262328, Process: 3, hard drive input start
+
+  1.262346, OS: Process 3 set in BLOCKED state
+  1.262359, OS: System/CPU idle
+  1.362426, OS: Interrupt called by process 4
+
+  1.362444, Process: 4, hard drive input end
+
+  1.362463, OS: Process 4 set in READY state
+  1.362480, OS: Process 4 selected with 2744 ms remaining
+  1.362490, OS: Process 4 set in RUNNING state
+
+  1.362501, Process: 4, run operation start
+
+  1.389529, OS: Process 4 interrupted by process 0
+  1.389543, OS: Process 4 set in READY state
+
+  1.389561, Process: 0, hard drive output end
+
+  1.389571, OS: Process 0 set in READY state
+  1.389584, OS: Process 0 selected with 5823 ms remaining
+  1.389594, OS: Process 0 set in RUNNING state
+
+  1.389605, Process: 0, run operation start
+  1.515647, Process: 0, run operation end
+
+  1.515660, OS: Process 0 set in READY state
+  1.515679, OS: Process 0 selected with 5697 ms remaining
+  1.515690, OS: Process 0 set in RUNNING state
+
+  1.515702, Process: 0, hard drive input start
+
+  1.515718, OS: Process 0 set in BLOCKED state
+  1.515741, OS: Process 4 selected with 2717 ms remaining
+  1.515752, OS: Process 4 set in RUNNING state
+
+  1.515762, Process: 4, run operation start
+  1.542783, Process: 4, run operation end
+
+  1.542797, OS: Process 4 set in READY state
+  1.542815, OS: Process 4 selected with 2690 ms remaining
+  1.542827, OS: Process 4 set in RUNNING state
+
+  1.542838, Process: 4, run operation start
+  1.659888, Process: 4, run operation end
+
+  1.659902, OS: Process 4 set in READY state
+  1.659931, OS: Process 4 selected with 2573 ms remaining
+  1.659940, OS: Process 4 set in RUNNING state
+
+  1.659951, Process: 4, run operation start
+
+  1.731984, OS: Process 4 interrupted by process 3
+  1.731998, OS: Process 4 set in READY state
+
+  1.732016, Process: 3, hard drive input end
+
+  1.732027, OS: Process 3 set in READY state
+  1.732045, OS: Process 3 selected with 3251 ms remaining
+  1.732056, OS: Process 3 set in RUNNING state
+
+  1.732067, Process: 3, run operation start
+  1.849117, Process: 3, run operation end
+
+  1.849138, OS: Process 3 set in READY state
+  1.849158, OS: Process 3 selected with 3134 ms remaining
+  1.849171, OS: Process 3 set in RUNNING state
+
+  1.849182, Process: 3, monitor output start
+
+  1.849201, OS: Process 3 set in BLOCKED state
+  1.849219, OS: Process 4 selected with 2501 ms remaining
+  1.849230, OS: Process 4 set in RUNNING state
+
+  1.849239, Process: 4, run operation start
+  1.867261, Process: 4, run operation end
+
+  1.867273, OS: Process 4 set in READY state
+  1.867293, OS: Process 4 selected with 2483 ms remaining
+  1.867300, OS: Process 4 set in RUNNING state
+
+  1.867312, Process: 4, run operation start
+  1.930346, Process: 4, run operation end
+
+  1.930359, OS: Process 4 set in READY state
+  1.930378, OS: Process 4 selected with 2420 ms remaining
+  1.930385, OS: Process 4 set in RUNNING state
+
+  1.930397, Process: 4, printer output start
+
+  1.930415, OS: Process 4 set in BLOCKED state
+  1.930427, OS: System/CPU idle
+  2.202596, OS: Interrupt called by process 3
+
+  2.202625, Process: 3, monitor output end
+
+  2.202634, OS: Process 3 set in READY state
+  2.202654, OS: Process 3 selected with 2782 ms remaining
+  2.202665, OS: Process 3 set in RUNNING state
+
+  2.202676, Process: 3, printer output start
+
+  2.202697, OS: Process 3 set in BLOCKED state
+  2.202716, OS: System/CPU idle
+  2.242752, OS: Interrupt called by process 0
+
+  2.242770, Process: 0, hard drive input end
+
+  2.242787, OS: Process 0 set in READY state
+  2.242806, OS: Process 0 selected with 4971 ms remaining
+  2.242818, OS: Process 0 set in RUNNING state
+
+  2.242829, Process: 0, run operation start
+  2.359884, Process: 0, run operation end
+
+  2.359897, OS: Process 0 set in READY state
+  2.359916, OS: Process 0 selected with 4854 ms remaining
+  2.359929, OS: Process 0 set in RUNNING state
+
+  2.359940, Process: 0, monitor output start
+
+  2.359955, OS: Process 0 set in BLOCKED state
+  2.359970, OS: System/CPU idle
+  2.596117, OS: Interrupt called by process 1
+
+  2.596136, Process: 1, printer output end
+
+  2.596155, OS: Process 1 set in READY state
+  2.596174, OS: Process 1 selected with 5994 ms remaining
+  2.596186, OS: Process 1 set in RUNNING state
+
+  2.596195, Process: 1, run operation start
+  2.650223, Process: 1, run operation end
+
+  2.650237, OS: Process 1 set in READY state
+  2.650257, OS: Process 1 selected with 5940 ms remaining
+  2.650270, OS: Process 1 set in RUNNING state
+
+  2.650282, Process: 1, keyboard input start
+
+  2.650299, OS: Process 1 set in BLOCKED state
+  2.650315, OS: System/CPU idle
+  2.714364, OS: Interrupt called by process 0
+
+  2.714382, Process: 0, monitor output end
+
+  2.714399, OS: Process 0 set in READY state
+  2.714418, OS: Process 0 selected with 4502 ms remaining
+  2.714430, OS: Process 0 set in RUNNING state
+
+  2.714442, Process: 0, run operation start
+  2.849496, Process: 0, run operation end
+
+  2.849522, OS: Process 0 set in READY state
+  2.849543, OS: Process 0 selected with 4367 ms remaining
+  2.849561, OS: Process 0 set in RUNNING state
+
+  2.849573, Process: 0, hard drive output start
+
+  2.849593, OS: Process 0 set in BLOCKED state
+  2.849613, OS: System/CPU idle
+  3.141787, OS: Interrupt called by process 4
+
+  3.141809, Process: 4, printer output end
+
+  3.141829, OS: Process 4 set in READY state
+  3.141847, OS: Process 4 selected with 1210 ms remaining
+  3.141859, OS: Process 4 set in RUNNING state
+
+  3.141871, Process: 4, printer output start
+
+  3.141891, OS: Process 4 set in BLOCKED state
+  3.141909, OS: System/CPU idle
+  3.354058, OS: Interrupt called by process 2
+
+  3.354088, Process: 2, keyboard input end
+
+  3.354099, OS: Process 2 set in READY state
+  3.354116, OS: Process 2 selected with 6123 ms remaining
+  3.354126, OS: Process 2 set in RUNNING state
+
+  3.354140, Process: 2, run operation start
+
+  3.381161, OS: Process 2 interrupted by process 0
+  3.381177, OS: Process 2 set in READY state
+
+  3.381195, Process: 0, hard drive output end
+
+  3.381212, OS: Process 0 set in READY state
+  3.381233, OS: Process 0 selected with 3839 ms remaining
+  3.381243, OS: Process 0 set in RUNNING state
+
+  3.381256, Process: 0, run operation start
+  3.480300, Process: 0, run operation end
+
+  3.480315, OS: Process 0 set in READY state
+  3.480334, OS: Process 0 selected with 3740 ms remaining
+  3.480347, OS: Process 0 set in RUNNING state
+
+  3.480360, Process: 0, keyboard input start
+
+  3.480378, OS: Process 0 set in BLOCKED state
+  3.480397, OS: Process 2 selected with 6096 ms remaining
+  3.480407, OS: Process 2 set in RUNNING state
+
+  3.480421, Process: 2, run operation start
+  3.543458, Process: 2, run operation end
+
+  3.543472, OS: Process 2 set in READY state
+  3.543505, OS: Process 2 selected with 6033 ms remaining
+  3.543517, OS: Process 2 set in RUNNING state
+
+  3.543530, Process: 2, printer output start
+
+  3.543548, OS: Process 2 set in BLOCKED state
+  3.543565, OS: System/CPU idle
+  3.635633, OS: Interrupt called by process 3
+
+  3.635663, Process: 3, printer output end
+
+  3.635674, OS: Process 3 set in READY state
+  3.635694, OS: Process 3 selected with 1352 ms remaining
+  3.635707, OS: Process 3 set in RUNNING state
+
+  3.635719, Process: 3, hard drive output start
+
+  3.635737, OS: Process 3 set in BLOCKED state
+  3.635756, OS: System/CPU idle
+  4.096036, OS: Interrupt called by process 2
+
+  4.096064, Process: 2, printer output end
+
+  4.096083, OS: Process 2 set in READY state
+  4.096102, OS: Process 2 selected with 5483 ms remaining
+  4.096113, OS: Process 2 set in RUNNING state
+
+  4.096126, Process: 2, hard drive input start
+
+  4.096142, OS: Process 2 set in BLOCKED state
+  4.096161, OS: System/CPU idle
+  4.352322, OS: Interrupt called by process 4
+
+  4.352344, Process: 4, printer output end
+
+  4.352363, OS: Process 4 set in READY state
+  4.352383, OS: Process 4 selected with 0 ms remaining
+  4.352395, OS: Process 4 set in RUNNING state
+  4.352408, OS: Process 4 ended and set in EXIT state
+  4.352424, OS: System/CPU idle
+  4.428475, OS: Interrupt called by process 3
+
+  4.428496, Process: 3, hard drive output end
+
+  4.428514, OS: Process 3 set in READY state
+  4.428533, OS: Process 3 selected with 560 ms remaining
+  4.428546, OS: Process 3 set in RUNNING state
+
+  4.428559, Process: 3, run operation start
+  4.554609, Process: 3, run operation end
+
+  4.554623, OS: Process 3 set in READY state
+  4.554644, OS: Process 3 selected with 434 ms remaining
+  4.554666, OS: Process 3 set in RUNNING state
+
+  4.554677, Process: 3, monitor output start
+
+  4.554696, OS: Process 3 set in BLOCKED state
+  4.554713, OS: System/CPU idle
+  4.558730, OS: Interrupt called by process 2
+
+  4.558747, Process: 2, hard drive input end
+
+  4.558767, OS: Process 2 set in READY state
+  4.558785, OS: Process 2 selected with 5021 ms remaining
+  4.558798, OS: Process 2 set in RUNNING state
+
+  4.558811, Process: 2, run operation start
+
+  4.630845, OS: Process 2 interrupted by process 1
+  4.630863, OS: Process 2 set in READY state
+
+  4.630884, Process: 1, keyboard input end
+
+  4.630905, OS: Process 1 set in READY state
+  4.630926, OS: Process 1 selected with 3960 ms remaining
+  4.630937, OS: Process 1 set in RUNNING state
+
+  4.630950, Process: 1, hard drive input start
+
+  4.630970, OS: Process 1 set in BLOCKED state
+  4.630990, OS: Process 2 selected with 4949 ms remaining
+  4.631003, OS: Process 2 set in RUNNING state
+
+  4.631014, Process: 2, run operation start
+  4.667042, Process: 2, run operation end
+
+  4.667057, OS: Process 2 set in READY state
+  4.667077, OS: Process 2 selected with 4913 ms remaining
+  4.667090, OS: Process 2 set in RUNNING state
+
+  4.667103, Process: 2, hard drive input start
+
+  4.667123, OS: Process 2 set in BLOCKED state
+  4.667143, OS: System/CPU idle
+  4.863271, OS: Interrupt called by process 3
+
+  4.863305, Process: 3, monitor output end
+
+  4.863325, OS: Process 3 set in READY state
+  4.863347, OS: Process 3 selected with 126 ms remaining
+  4.863360, OS: Process 3 set in RUNNING state
+
+  4.863374, Process: 3, run operation start
+  4.926412, Process: 3, run operation end
+
+  4.926431, OS: Process 3 set in READY state
+  4.926464, OS: Process 3 selected with 63 ms remaining
+  4.926477, OS: Process 3 set in RUNNING state
+
+  4.926491, Process: 3, run operation start
+
+  4.962520, OS: Process 3 interrupted by process 1
+  4.962538, OS: Process 3 set in READY state
+
+  4.962561, Process: 1, hard drive input end
+
+  4.962578, OS: Process 1 set in READY state
+  4.962599, OS: Process 1 selected with 3630 ms remaining
+  4.962611, OS: Process 1 set in RUNNING state
+
+  4.962624, Process: 1, monitor output start
+
+  4.962643, OS: Process 1 set in BLOCKED state
+  4.962663, OS: Process 3 selected with 27 ms remaining
+  4.962676, OS: Process 3 set in RUNNING state
+
+  4.962690, Process: 3, run operation start
+  4.989712, Process: 3, run operation end
+
+  4.989728, OS: Process 3 set in READY state
+  4.989745, OS: Process 3 selected with 0 ms remaining
+  4.989758, OS: Process 3 set in RUNNING state
+  4.989769, OS: Process 3 ended and set in EXIT state
+  4.989780, OS: System/CPU idle
+  5.317992, OS: Interrupt called by process 1
+
+  5.318014, Process: 1, monitor output end
+
+  5.318033, OS: Process 1 set in READY state
+  5.318072, OS: Process 1 selected with 3278 ms remaining
+  5.318083, OS: Process 1 set in RUNNING state
+
+  5.318099, Process: 1, run operation start
+  5.390137, Process: 1, run operation end
+
+  5.390153, OS: Process 1 set in READY state
+  5.390174, OS: Process 1 selected with 3206 ms remaining
+  5.390188, OS: Process 1 set in RUNNING state
+
+  5.390202, Process: 1, keyboard input start
+
+  5.390218, OS: Process 1 set in BLOCKED state
+  5.390234, OS: System/CPU idle
+  5.526329, OS: Interrupt called by process 2
+
+  5.526351, Process: 2, hard drive input end
+
+  5.526371, OS: Process 2 set in READY state
+  5.526389, OS: Process 2 selected with 4055 ms remaining
+  5.526413, OS: Process 2 set in RUNNING state
+
+  5.526427, Process: 2, run operation start
+  5.643473, Process: 2, run operation end
+
+  5.643490, OS: Process 2 set in READY state
+  5.643513, OS: Process 2 selected with 3938 ms remaining
+  5.643528, OS: Process 2 set in RUNNING state
+
+  5.643542, Process: 2, hard drive input start
+
+  5.643563, OS: Process 2 set in BLOCKED state
+  5.643584, OS: System/CPU idle
+  6.504099, OS: Interrupt called by process 2
+
+  6.504142, Process: 2, hard drive input end
+
+  6.504156, OS: Process 2 set in READY state
+  6.504177, OS: Process 2 selected with 3080 ms remaining
+  6.504191, OS: Process 2 set in RUNNING state
+
+  6.504205, Process: 2, keyboard input start
+
+  6.504225, OS: Process 2 set in BLOCKED state
+  6.504241, OS: System/CPU idle
+  6.564295, OS: Interrupt called by process 0
+
+  6.564320, Process: 0, keyboard input end
+
+  6.564339, OS: Process 0 set in READY state
+  6.564362, OS: Process 0 selected with 660 ms remaining
+  6.564376, OS: Process 0 set in RUNNING state
+
+  6.564391, Process: 0, printer output start
+
+  6.564410, OS: Process 0 set in BLOCKED state
+  6.564433, OS: System/CPU idle
+  7.224818, OS: Interrupt called by process 0
+
+  7.224857, Process: 0, printer output end
+
+  7.224875, OS: Process 0 set in READY state
+  7.224898, OS: Process 0 selected with 0 ms remaining
+  7.224912, OS: Process 0 set in RUNNING state
+  7.224927, OS: Process 0 ended and set in EXIT state
+  7.224945, OS: System/CPU idle
+  8.473692, OS: Interrupt called by process 1
+
+  8.473738, Process: 1, keyboard input end
+
+  8.473759, OS: Process 1 set in READY state
+  8.473783, OS: Process 1 selected with 126 ms remaining
+  8.473807, OS: Process 1 set in RUNNING state
+
+  8.473822, Process: 1, run operation start
+  8.599879, Process: 1, run operation end
+
+  8.599900, OS: Process 1 set in READY state
+  8.599925, OS: Process 1 selected with 0 ms remaining
+  8.599940, OS: Process 1 set in RUNNING state
+  8.599954, OS: Process 1 ended and set in EXIT state
+  8.599970, OS: System/CPU idle
+  9.584542, OS: Interrupt called by process 2
+
+  9.584583, Process: 2, keyboard input end
+
+  9.584602, OS: Process 2 set in READY state
+  9.584623, OS: Process 2 selected with 0 ms remaining
+  9.584638, OS: Process 2 set in RUNNING state
+  9.584652, OS: Process 2 ended and set in EXIT state
+  9.584667, OS: System stop
+
+End Simulation - Complete
+=========================
+

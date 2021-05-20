@@ -1,0 +1,12 @@
+Start Simulator Configuration File:
+Processor Cycle Time (msec):   6     
+Version/Phase: 1.05
+CPU Scheduling Code: SRTF-P
+Quantum Time (cycles): 15
+File Path: metadata5mp.mdf
+I/O Cycle Time (msec): 28
+Log To: Both
+Log File Path: logfile_SRTF.lgf
+Memory Available (KB): 51200
+End Simulator Configuration File.
+

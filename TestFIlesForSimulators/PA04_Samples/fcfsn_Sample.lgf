@@ -1,0 +1,184 @@
+
+==================================================
+Simulator Log File Header
+
+File Name                       : metadata4.mdf
+CPU Scheduling                  : FCFS-N
+Quantum Cycles                  : 45
+Memory Available (KB)           : 333
+Processor Cycle Rate (ms/cycle) : 9
+I/O Cycle Rate (ms/cycle)       : 22
+
+================
+Begin Simulation
+
+  0.000000, OS: System Start
+  0.000006, OS: Create Process Control Blocks
+  0.000018, OS: All processes initialized in New state
+  0.000027, OS: All processes now set in Ready state
+  0.000054, OS: Process 0 selected with 7209 ms remaining
+  0.000063, OS: Process 0 set in RUNNING state
+
+  0.000073, Process: 0, hard drive input start
+  0.462089, Process: 0, hard drive input end
+  0.462104, Process: 0, hard drive output start
+  1.386124, Process: 0, hard drive output end
+  1.386138, Process: 0, run operation start
+  1.512157, Process: 0, run operation end
+  1.512167, Process: 0, run operation end
+  1.512182, Process: 0, hard drive input start
+  2.238193, Process: 0, hard drive input end
+  2.238206, Process: 0, run operation start
+  2.355215, Process: 0, run operation end
+  2.355225, Process: 0, run operation end
+  2.355241, Process: 0, monitor output start
+  2.707251, Process: 0, monitor output end
+  2.707263, Process: 0, run operation start
+  2.842273, Process: 0, run operation end
+  2.842291, Process: 0, run operation end
+  2.842308, Process: 0, hard drive output start
+  3.370318, Process: 0, hard drive output end
+  3.370331, Process: 0, run operation start
+  3.469342, Process: 0, run operation end
+  3.469352, Process: 0, run operation end
+  3.469366, Process: 0, keyboard input start
+  6.549377, Process: 0, keyboard input end
+  6.549392, Process: 0, printer output start
+  7.209409, Process: 0, printer output end
+
+  7.209420, OS: Process 0 ended and set in EXIT state
+  7.209437, OS: Process 1 selected with 8585 ms remaining
+  7.209443, OS: Process 1 set in RUNNING state
+
+  7.209453, Process: 1, run operation start
+  7.308469, Process: 1, run operation end
+  7.308479, Process: 1, run operation end
+  7.308495, Process: 1, printer output start
+  8.298503, Process: 1, printer output end
+  8.298514, Process: 1, run operation start
+  8.370526, Process: 1, run operation end
+  8.370534, Process: 1, run operation end
+  8.370551, Process: 1, printer output start
+  9.800562, Process: 1, printer output end
+  9.800576, Process: 1, run operation start
+  9.854594, Process: 1, run operation end
+  9.854604, Process: 1, run operation end
+  9.854612, Process: 1, keyboard input start
+ 11.834628, Process: 1, keyboard input end
+ 11.834642, Process: 1, hard drive input start
+ 12.164664, Process: 1, hard drive input end
+ 12.164686, Process: 1, monitor output start
+ 12.516703, Process: 1, monitor output end
+ 12.516714, Process: 1, run operation start
+ 12.588725, Process: 1, run operation end
+ 12.588735, Process: 1, run operation end
+ 12.588751, Process: 1, keyboard input start
+ 15.668764, Process: 1, keyboard input end
+ 15.668789, Process: 1, run operation start
+ 15.794807, Process: 1, run operation end
+ 15.794818, Process: 1, run operation end
+
+ 15.794835, OS: Process 1 ended and set in EXIT state
+ 15.794844, OS: Process 2 selected with 9374 ms remaining
+ 15.794855, OS: Process 2 set in RUNNING state
+
+ 15.794864, Process: 2, run operation start
+ 15.911880, Process: 2, run operation end
+ 15.911891, Process: 2, run operation end
+ 15.911906, Process: 2, run operation start
+ 15.965915, Process: 2, run operation end
+ 15.965925, Process: 2, run operation end
+ 15.965941, Process: 2, keyboard input start
+ 19.045953, Process: 2, keyboard input end
+ 19.045970, Process: 2, run operation start
+ 19.135991, Process: 2, run operation end
+ 19.136006, Process: 2, run operation end
+ 19.136022, Process: 2, printer output start
+ 19.686036, Process: 2, printer output end
+ 19.686055, Process: 2, hard drive input start
+ 20.148075, Process: 2, hard drive input end
+ 20.148089, Process: 2, run operation start
+ 20.256106, Process: 2, run operation end
+ 20.256116, Process: 2, run operation end
+ 20.256133, Process: 2, hard drive input start
+ 21.114145, Process: 2, hard drive input end
+ 21.114163, Process: 2, run operation start
+ 21.231182, Process: 2, run operation end
+ 21.231195, Process: 2, run operation end
+ 21.231211, Process: 2, hard drive input start
+ 22.089223, Process: 2, hard drive input end
+ 22.089238, Process: 2, keyboard input start
+ 25.169259, Process: 2, keyboard input end
+
+ 25.169272, OS: Process 2 ended and set in EXIT state
+ 25.169289, OS: Process 3 selected with 4670 ms remaining
+ 25.169298, OS: Process 3 set in RUNNING state
+
+ 25.169317, Process: 3, hard drive input start
+ 26.027335, Process: 3, hard drive input end
+ 26.027349, Process: 3, run operation start
+ 26.126368, Process: 3, run operation end
+ 26.126379, Process: 3, run operation end
+ 26.126395, Process: 3, hard drive input start
+ 26.588409, Process: 3, hard drive input end
+ 26.588422, Process: 3, run operation start
+ 26.705434, Process: 3, run operation end
+ 26.705444, Process: 3, run operation end
+ 26.705461, Process: 3, monitor output start
+ 27.057471, Process: 3, monitor output end
+ 27.057484, Process: 3, printer output start
+ 28.487505, Process: 3, printer output end
+ 28.487522, Process: 3, hard drive output start
+ 29.279540, Process: 3, hard drive output end
+ 29.279553, Process: 3, run operation start
+ 29.405572, Process: 3, run operation end
+ 29.405583, Process: 3, run operation end
+ 29.405599, Process: 3, monitor output start
+ 29.713609, Process: 3, monitor output end
+ 29.713622, Process: 3, run operation start
+ 29.776641, Process: 3, run operation end
+ 29.776651, Process: 3, run operation end
+ 29.776668, Process: 3, run operation start
+ 29.839679, Process: 3, run operation end
+ 29.839690, Process: 3, run operation end
+
+ 29.839706, OS: Process 3 ended and set in EXIT state
+ 29.839715, OS: Process 4 selected with 3831 ms remaining
+ 29.839727, OS: Process 4 set in RUNNING state
+
+ 29.839737, Process: 4, run operation start
+ 29.902755, Process: 4, run operation end
+ 29.902769, Process: 4, run operation end
+ 29.902785, Process: 4, monitor output start
+ 30.122796, Process: 4, monitor output end
+ 30.122810, Process: 4, run operation start
+ 30.212831, Process: 4, run operation end
+ 30.212848, Process: 4, run operation end
+ 30.212865, Process: 4, run operation start
+ 30.266875, Process: 4, run operation end
+ 30.266886, Process: 4, run operation end
+ 30.266903, Process: 4, hard drive input start
+ 30.926912, Process: 4, hard drive input end
+ 30.926929, Process: 4, run operation start
+ 30.980949, Process: 4, run operation end
+ 30.980960, Process: 4, run operation end
+ 30.980977, Process: 4, run operation start
+ 31.097988, Process: 4, run operation end
+ 31.097998, Process: 4, run operation end
+ 31.098015, Process: 4, run operation start
+ 31.188027, Process: 4, run operation end
+ 31.188038, Process: 4, run operation end
+ 31.188049, Process: 4, run operation start
+ 31.251063, Process: 4, run operation end
+ 31.251073, Process: 4, run operation end
+ 31.251090, Process: 4, printer output start
+ 32.461101, Process: 4, printer output end
+ 32.461118, Process: 4, printer output start
+ 33.671138, Process: 4, printer output end
+
+ 33.671158, OS: Process 4 ended and set in EXIT state
+ 33.671174, OS: System stop
+
+End Simulation - Complete
+=========================
+
